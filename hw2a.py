@@ -1,3 +1,4 @@
+# ChatGPT was used to help me write this code
 from math import sqrt, pi, exp
 
 
