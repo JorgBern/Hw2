@@ -79,7 +79,7 @@ def main():
     mean = 100
     stDev = 3
     upper_limit = mean + 2 * stDev
-    p2 = Probability(GPDF, (mean, stDev), upper_limit, True)
+    p2 = 1 - Probability(GPDF, (mean, stDev), upper_limit, True)
     print("P(x > {} | N({}, {})) = {:.5f}".format(upper_limit, mean, stDev, p2))
 
 
